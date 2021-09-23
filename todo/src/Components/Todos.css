@@ -1,0 +1,39 @@
+.contain{
+    padding-top: 5vh;
+}
+form{
+   padding: 0vh 33vw;
+   border: 1px solid balck;
+}
+#tits{
+    width: 33vw;
+    outline: none;
+}
+#desc{
+    width: 33vw;
+    outline: none;
+}
+.list{
+    margin: 2vh 0vw;
+    outline: none;
+    font-size: 1rem;
+}
+.item{
+    min-height: 45vh;
+    text-align: center;
+    padding: 3vh 0vw;
+}
+@media only screen and (max-width:960px) {
+    form{
+        padding: 0vh 15vw;
+     }
+     #tits{
+        width: 50vw;
+    }
+    #desc{
+        width: 50vw;
+    }
+    .list{
+        font-size: 0.8rem;
+    }
+}

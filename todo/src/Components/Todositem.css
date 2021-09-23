@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dis{
+    padding: 2vh 33vw;
+}
+.delbtn{
+    background-color: grey;
+    height: 4vh;
+    width: 10vh;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+hr{
+    margin-top: 1vh;
+    color: black;
+}
+@media only screen and (max-width:960px) 
+{
+    .delbtn{
+        font-size: 0.7rem;
+        border: none;
+    }
+    .dis{
+        padding: 2vh 15vw;
+    }
+}

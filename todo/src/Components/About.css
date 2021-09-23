@@ -1,0 +1,14 @@
+.abt{
+    min-height:72.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width:960px) {
+    .abt{
+        font-size: 1rem;
+        padding-left: 5vw;
+    }
+ }

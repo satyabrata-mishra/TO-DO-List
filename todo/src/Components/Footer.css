@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+.foot{
+    text-align: center;
+    padding:5vh 0vw;
+    background-color: rgb(48, 47, 47);
+    font-size: 1.5rem;
+    font-family: 'Rubik Beastly', cursive;
+}
+@media only screen and (max-width:960px) {
+   .foot{
+       font-size: 1rem;
+       padding:3vh 0vw;
+   }
+}
